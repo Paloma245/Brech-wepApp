@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechówepApp", "BrechówepApp\BrechówepApp.csproj", "{EE990301-93C3-4DEC-A3A7-119D38BE7949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2F6A07A7-AD7F-40E1-BCBF-D929CE22C7AE}"
+	ProjectSection(SolutionItems) = preProject
+		servces1.cs = servces1.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE990301-93C3-4DEC-A3A7-119D38BE7949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE990301-93C3-4DEC-A3A7-119D38BE7949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE990301-93C3-4DEC-A3A7-119D38BE7949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE990301-93C3-4DEC-A3A7-119D38BE7949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {891498D0-8DFA-4057-A6C8-5699BB3B6593}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿@page "/Roupas/{slug}/{Id}"
+@model BrechówepApp.Pages.DetailsModel
+@{
+}
+
+
+<h2 class="my-3">@Model.Produto.Nome</h2>
+<div class="row">
+    <div class="col-4">
+        <img class="img-fluid rounded" src="@Model.Produto.UrlImagem">
+    </div>
+    <div class="col-6">
+        <h4 class="my-3">Sobre:</h4>
+        <p>@Model.Produto.Descricao</p>
+        <h4 class="my-3">Mais Info:</h4>
+       
+        <a class="btn my-3 btn-primary">Editar</a>
+    </div>
+</div>
